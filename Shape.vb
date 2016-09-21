@@ -1,2 +1,2 @@
-﻿Public Class Shape
+﻿Public MustInherit Class Shape
 End Class

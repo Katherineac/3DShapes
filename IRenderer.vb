@@ -1,2 +1,2 @@
-﻿Friend Interface IRenderer
+﻿Interface IRenderer
 End Interface
