@@ -1,4 +1,4 @@
-﻿Public Interface ImessageBox
+﻿Public Interface IMessageBox
 
     Sub Show()
 
