@@ -10,7 +10,7 @@
 
     End Sub
 
-    Public Function Render() As String
+    Public Function Render() As String Implements IRenderer.Render
         Return "Diameter: " + Diameter + " Height: " + Height + " Radius: " + Radius + "\nSurface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
     End Function
 

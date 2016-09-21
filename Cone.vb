@@ -7,10 +7,9 @@
     ' Nothing needed in constructor as Height and Raidus are getters and setters
     Sub New()
 
-
     End Sub
 
-    Public Function Render() As String
+    Public Function Render() As String Implements IRenderer.Render
         Return "Height: " + Height + " Radius: " + Radius + "\nSurface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
     End Function
 

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{6CBBF02E-79E2-4C34-B57F-8DE651D80E46}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <StartupObject>
     </StartupObject>
@@ -63,6 +63,24 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Linq" />
     <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cone.vb" />
+    <Compile Include="Cuboid.vb" />
+    <Compile Include="Cylinder.vb" />
+    <Compile Include="ICone.vb" />
+    <Compile Include="ICuboid.vb" />
+    <Compile Include="ICylinder.vb" />
+    <Compile Include="IMessageBox.vb" />
+    <Compile Include="IRenderer.vb" />
+    <Compile Include="ISphere.vb" />
+    <Compile Include="MessageBox.vb" />
+    <Compile Include="Shapes.vb" />
+    <Compile Include="ShapesConsole.vb" />
+    <Compile Include="Sphere.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
   <ProjectExtensions>
