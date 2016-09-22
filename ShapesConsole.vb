@@ -15,8 +15,18 @@
     Public Sub CompositionRoot()
         shapeList = New List(Of IRenderer)
         Shapes = New List(Of IRenderer)
+
         Dim newCone As New Cone(5, 5)
         Shapes.Add(newCone)
+
+        Dim newCylinder As New Cylinder(5, 5, 5)
+        Shapes.Add(newCylinder)
+
+        Dim newSphere As New Sphere(5, 5)
+        Shapes.Add(newSphere)
+
+        Dim newCuboid As New Cuboid(5, 5, 5)
+        Shapes.Add(newCuboid)
 
     End Sub
 
@@ -28,12 +38,9 @@
 
     Public Sub RenderShapes()
         For Each render As IRenderer In Shapes
-            MsgBox(render.Render())
+            render.Render()
         Next
     End Sub
-
-
-
 
 
 End Class

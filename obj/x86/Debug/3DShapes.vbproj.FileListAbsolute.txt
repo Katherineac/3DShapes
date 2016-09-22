@@ -1,0 +1,8 @@
+C:\Users\lokko\3DShapes\bin\Debug\ConsoleApplication.exe
+C:\Users\lokko\3DShapes\bin\Debug\ConsoleApplication.pdb
+C:\Users\lokko\3DShapes\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\lokko\3DShapes\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\lokko\3DShapes\obj\x86\Debug\3DShapes.vbprojResolveAssemblyReference.cache
+C:\Users\lokko\3DShapes\bin\Debug\ConsoleApplication.exe.config
+C:\Users\lokko\3DShapes\bin\Debug\nunit.framework.dll
+C:\Users\lokko\3DShapes\bin\Debug\nunit.framework.xml

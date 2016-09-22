@@ -1,3 +1,3 @@
 ﻿Interface IRenderer
-    Function Render() As String
+    Sub Render()
 End Interface

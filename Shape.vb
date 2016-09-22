@@ -1,17 +1,25 @@
-﻿Imports Shapes3D
-
-Public MustInherit Class Shape
+﻿Public MustInherit Class Shape
     Implements IMessageBox
-    Sub New()
 
+#Region "Properties"
+
+    Protected MessageBox As IMessageBox
+
+#End Region
+
+#Region "Methods"
+
+    Sub New()
+        Me.MessageBox = New MessageBox
     End Sub
-    Public MustOverride Sub Shape()
+
+    Public Sub Show(renderString As String, name As String) Implements IMessageBox.Show
+        Throw New NotImplementedException()
+    End Sub
 
     Public MustOverride Function SurfaceArea() As Single
-
     Public MustOverride Function Volume() As Single
 
-    Public MustOverride Sub Show() Implements IMessageBox.Show
+#End Region
 
-    Protected MessageBox 'Getter or Setter
 End Class
