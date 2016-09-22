@@ -1,11 +1,11 @@
 ﻿Public Class Sphere
     Inherits Shape
-    Implements Isphere, IRenderer
+    Implements ISphere, IRenderer
 
 #Region "Properties"
 
-    Public Property Diameter As Single Implements Isphere.Diameter
-    Public Property Radius As Single Implements Isphere.Radius
+    Public Property Diameter As Single Implements ISphere.Diameter
+    Public Property Radius As Single Implements ISphere.Radius
 
 #End Region
 
