@@ -1,0 +1,13 @@
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.dll
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.pdb
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.xml
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\ConsoleApplication.exe
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\nunit.framework.dll
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\ConsoleApplication.pdb
+C:\Users\lokko\3DShapes\ShapeUnitTest\bin\Debug\nunit.framework.xml
+C:\Users\lokko\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbprojResolveAssemblyReference.cache
+C:\Users\lokko\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.Resources.resources
+C:\Users\lokko\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbproj.GenerateResource.Cache
+C:\Users\lokko\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.dll
+C:\Users\lokko\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.xml
+C:\Users\lokko\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.pdb
