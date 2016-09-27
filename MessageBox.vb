@@ -1,9 +1,16 @@
-﻿Imports _3DShapesCombined
+﻿Namespace Shape
 
-Public Class MessageBox
-    Implements IMessageBox
+    Public Class MessageBox
+        Implements IMessageBox
 
-    Public Sub IMessageBox_Show() Implements IMessageBox.Show
-        Throw New NotImplementedException()
-    End Sub
-End Class
+        Sub New()
+        End Sub
+
+        Public Sub Show(renderString As String, name As String) Implements IMessageBox.Show
+            MsgBox(renderString, 0, name)
+        End Sub
+
+    End Class
+
+End Namespace
+

@@ -1,0 +1,4 @@
+C:\Users\vang\Desktop\3DShapes\obj\x86\Debug\3DShapesCombined.vbprojResolveAssemblyReference.cache
+C:\Users\lokko\3DShapes\obj\x86\Debug\3DShapesCombined.vbprojResolveAssemblyReference.cache
+C:\Users\katherineac\Documents\3DShapes\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\katherineac\Documents\3DShapes\obj\x86\Debug\ConsoleApplication.pdb

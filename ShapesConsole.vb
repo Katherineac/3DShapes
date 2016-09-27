@@ -1,31 +1,50 @@
-﻿Public Class ShapesConsole
+﻿Namespace Shape
 
-    ' Visual Studio won't let me name as shapes
-    Private shapeList As List(Of Shape)
+    Public Class ShapesConsole
 
-    Private Property Shapes As List(Of Shape)
-        Get
-            Return shapeList
-        End Get
-        Set(value As List(Of Shape))
-            shapeList = value
-        End Set
-    End Property
+        ' Switch to Irenderer
+        Private shapeList As List(Of IRenderer)
 
-    Public Sub CompositionRoot()
-        Throw New NotImplementedException()
-    End Sub
+        Private Property Shapes As List(Of IRenderer)
+            Get
+                Return shapeList
+            End Get
+            Set(value As List(Of IRenderer))
+                shapeList = value
+            End Set
+        End Property
 
-    Public Sub Main()
-        Throw New NotImplementedException()
-    End Sub
+        Public Sub CompositionRoot()
+            shapeList = New List(Of IRenderer)
+            Shapes = New List(Of IRenderer)
 
-    Public Sub RenderShapes()
-        Throw New NotImplementedException()
-    End Sub
+            Dim newCone As New Cone(5, 5)
+            Shapes.Add(newCone)
+
+            Dim newCylinder As New Cylinder(5, 5, 5)
+            Shapes.Add(newCylinder)
+
+            Dim newSphere As New Sphere(5, 5)
+            Shapes.Add(newSphere)
+
+            Dim newCuboid As New Cuboid(5, 5, 5)
+            Shapes.Add(newCuboid)
+
+        End Sub
+
+        Public Shared Sub Main()
+            Dim instance As New ShapesConsole()
+            instance.CompositionRoot()
+            instance.RenderShapes()
+        End Sub
+
+        Public Sub RenderShapes()
+            For Each render As IRenderer In Shapes
+                render.Render()
+            Next
+        End Sub
 
 
+    End Class
 
-
-
-End Class
+End Namespace
