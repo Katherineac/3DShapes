@@ -1,46 +1,50 @@
-﻿Public Class ShapesConsole
+﻿Namespace Shape
 
-    ' Switch to Irenderer
-    Private shapeList As List(Of IRenderer)
+    Public Class ShapesConsole
 
-    Private Property Shapes As List(Of IRenderer)
-        Get
-            Return shapeList
-        End Get
-        Set(value As List(Of IRenderer))
-            shapeList = value
-        End Set
-    End Property
+        ' Switch to Irenderer
+        Private shapeList As List(Of IRenderer)
 
-    Public Sub CompositionRoot()
-        shapeList = New List(Of IRenderer)
-        Shapes = New List(Of IRenderer)
+        Private Property Shapes As List(Of IRenderer)
+            Get
+                Return shapeList
+            End Get
+            Set(value As List(Of IRenderer))
+                shapeList = value
+            End Set
+        End Property
 
-        Dim newCone As New Cone(5, 5)
-        Shapes.Add(newCone)
+        Public Sub CompositionRoot()
+            shapeList = New List(Of IRenderer)
+            Shapes = New List(Of IRenderer)
 
-        Dim newCylinder As New Cylinder(5, 5, 5)
-        Shapes.Add(newCylinder)
+            Dim newCone As New Cone(5, 5)
+            Shapes.Add(newCone)
 
-        Dim newSphere As New Sphere(5, 5)
-        Shapes.Add(newSphere)
+            Dim newCylinder As New Cylinder(5, 5, 5)
+            Shapes.Add(newCylinder)
 
-        Dim newCuboid As New Cuboid(5, 5, 5)
-        Shapes.Add(newCuboid)
+            Dim newSphere As New Sphere(5, 5)
+            Shapes.Add(newSphere)
 
-    End Sub
+            Dim newCuboid As New Cuboid(5, 5, 5)
+            Shapes.Add(newCuboid)
 
-    Public Shared Sub Main()
-        Dim instance As New ShapesConsole()
-        instance.CompositionRoot()
-        instance.RenderShapes()
-    End Sub
+        End Sub
 
-    Public Sub RenderShapes()
-        For Each render As IRenderer In Shapes
-            render.Render()
-        Next
-    End Sub
+        Public Shared Sub Main()
+            Dim instance As New ShapesConsole()
+            instance.CompositionRoot()
+            instance.RenderShapes()
+        End Sub
+
+        Public Sub RenderShapes()
+            For Each render As IRenderer In Shapes
+                render.Render()
+            Next
+        End Sub
 
 
-End Class
+    End Class
+
+End Namespace

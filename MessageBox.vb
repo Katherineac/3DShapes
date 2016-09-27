@@ -1,11 +1,16 @@
-﻿Public Class MessageBox
-    Implements IMessageBox
+﻿Namespace Shape
 
-    Sub New()
-    End Sub
+    Public Class MessageBox
+        Implements IMessageBox
 
-    Public Sub Show(renderString As String, name As String) Implements IMessageBox.Show
-        MsgBox(renderString, 0, name)
-    End Sub
+        Sub New()
+        End Sub
 
-End Class
+        Public Sub Show(renderString As String, name As String) Implements IMessageBox.Show
+            MsgBox(renderString, 0, name)
+        End Sub
+
+    End Class
+
+End Namespace
+

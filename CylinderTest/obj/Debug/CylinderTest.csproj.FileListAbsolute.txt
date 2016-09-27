@@ -1,0 +1,6 @@
+C:\Users\lokko\3DShapes\CylinderTest\bin\Debug\CylinderTest.dll
+C:\Users\lokko\3DShapes\CylinderTest\bin\Debug\CylinderTest.pdb
+C:\Users\lokko\3DShapes\CylinderTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\lokko\3DShapes\CylinderTest\obj\Debug\CylinderTest.csprojResolveAssemblyReference.cache
+C:\Users\lokko\3DShapes\CylinderTest\obj\Debug\CylinderTest.dll
+C:\Users\lokko\3DShapes\CylinderTest\obj\Debug\CylinderTest.pdb
