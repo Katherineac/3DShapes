@@ -37,3 +37,16 @@ C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbproj.Gen
 C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.dll
 C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.xml
 C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.pdb
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbprojResolveAssemblyReference.cache
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.Resources.resources
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbproj.GenerateResource.Cache
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.dll
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.xml
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.pdb
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.dll
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.pdb
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.xml
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\ConsoleApplication.exe
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\nunit.framework.dll
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\ConsoleApplication.pdb
+C:\Users\katherineac\Documents\3DShapes\ShapeUnitTest\bin\Debug\nunit.framework.xml

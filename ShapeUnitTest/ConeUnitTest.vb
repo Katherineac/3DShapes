@@ -9,7 +9,7 @@ Namespace Shape
     <TestClass()>
     Public Class ConeUnitTest
 
-        'Fields for cylinder test class
+        'Fields for cone test class
         Private height As Single = 5
         Private radius As Single = 5
         Private expectedSurfaceArea As Single = 189.61

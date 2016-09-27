@@ -21,3 +21,11 @@ C:\Users\vang\Desktop\3DShapes\bin\Debug\ConsoleApplication.pdb
 C:\Users\vang\Desktop\3DShapes\bin\Debug\nunit.framework.dll
 C:\Users\vang\Desktop\3DShapes\bin\Debug\nunit.framework.xml
 C:\Users\vang\Desktop\3DShapes\obj\x86\Debug\3DShapes.vbprojResolveAssemblyReference.cache
+C:\Users\katherineac\Documents\3DShapes\bin\Debug\ConsoleApplication.exe.config
+C:\Users\katherineac\Documents\3DShapes\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\katherineac\Documents\3DShapes\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\katherineac\Documents\3DShapes\bin\Debug\ConsoleApplication.exe
+C:\Users\katherineac\Documents\3DShapes\bin\Debug\ConsoleApplication.pdb
+C:\Users\katherineac\Documents\3DShapes\bin\Debug\nunit.framework.dll
+C:\Users\katherineac\Documents\3DShapes\bin\Debug\nunit.framework.xml
+C:\Users\katherineac\Documents\3DShapes\obj\x86\Debug\3DShapes.vbprojResolveAssemblyReference.cache

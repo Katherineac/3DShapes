@@ -88,7 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cone.vb" />
-    <Compile Include="ConeTest.vb" />
     <Compile Include="Cuboid.vb" />
     <Compile Include="Cylinder.vb" />
     <Compile Include="ICone.vb" />
