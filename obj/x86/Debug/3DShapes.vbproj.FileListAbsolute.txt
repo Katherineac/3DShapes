@@ -13,3 +13,11 @@ J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\ConsoleApplication.pdb
 J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\nunit.framework.dll
 J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\nunit.framework.xml
 J:\homework\Agile\project\3DShapes\3DShapes\obj\x86\Debug\3DShapes.vbprojResolveAssemblyReference.cache
+C:\Users\vang\Desktop\3DShapes\bin\Debug\ConsoleApplication.exe.config
+C:\Users\vang\Desktop\3DShapes\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\vang\Desktop\3DShapes\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\vang\Desktop\3DShapes\bin\Debug\ConsoleApplication.exe
+C:\Users\vang\Desktop\3DShapes\bin\Debug\ConsoleApplication.pdb
+C:\Users\vang\Desktop\3DShapes\bin\Debug\nunit.framework.dll
+C:\Users\vang\Desktop\3DShapes\bin\Debug\nunit.framework.xml
+C:\Users\vang\Desktop\3DShapes\obj\x86\Debug\3DShapes.vbprojResolveAssemblyReference.cache

@@ -24,3 +24,16 @@ J:\homework\Agile\project\3DShapes\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTes
 J:\homework\Agile\project\3DShapes\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.dll
 J:\homework\Agile\project\3DShapes\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.xml
 J:\homework\Agile\project\3DShapes\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.pdb
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.dll
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.pdb
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\ShapeUnitTest.xml
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\ConsoleApplication.exe
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\nunit.framework.dll
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\ConsoleApplication.pdb
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\bin\Debug\nunit.framework.xml
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbprojResolveAssemblyReference.cache
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.Resources.resources
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTests.vbproj.GenerateResource.Cache
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.dll
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.xml
+C:\Users\vang\Desktop\3DShapes\ShapeUnitTest\obj\Debug\ShapeUnitTest.pdb
