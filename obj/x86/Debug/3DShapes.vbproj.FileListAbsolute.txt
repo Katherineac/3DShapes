@@ -5,3 +5,11 @@ C:\Users\lokko\3DShapes\bin\Debug\nunit.framework.dll
 C:\Users\lokko\3DShapes\bin\Debug\nunit.framework.xml
 C:\Users\lokko\3DShapes\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\lokko\3DShapes\obj\x86\Debug\ConsoleApplication.pdb
+J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\ConsoleApplication.exe.config
+J:\homework\Agile\project\3DShapes\3DShapes\obj\x86\Debug\ConsoleApplication.exe
+J:\homework\Agile\project\3DShapes\3DShapes\obj\x86\Debug\ConsoleApplication.pdb
+J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\ConsoleApplication.exe
+J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\ConsoleApplication.pdb
+J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\nunit.framework.dll
+J:\homework\Agile\project\3DShapes\3DShapes\bin\Debug\nunit.framework.xml
+J:\homework\Agile\project\3DShapes\3DShapes\obj\x86\Debug\3DShapes.vbprojResolveAssemblyReference.cache
