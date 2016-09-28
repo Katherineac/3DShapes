@@ -23,9 +23,9 @@ Namespace Shape
         End Sub
 
         'Renders Cuboid and outputs to MessageBox.Show()
-        Public Sub Render() Implements IRenderer.Render
-            MessageBox.Show("Height: " + Height.ToString() + " Length: " + Length.ToString() + " Width: " + Width.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString(), "Cuboid")
-        End Sub
+        ' Public Overrides Function Render() As String Implements IRenderer.Render
+        'Return "Height: " + Height.ToString() + " Length: " + Length.ToString() + " Width: " + Width.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
+        '   End Function
 
         'Calculates Surface Area of a Cuboid
         Public Overrides Function SurfaceArea() As Single
@@ -35,6 +35,14 @@ Namespace Shape
         'Caculates Volume of a Cuboid
         Public Overrides Function Volume() As Single
             Return Length * Width * Height
+        End Function
+
+        Protected Overrides Sub Show(renderString As String, name As String)
+            MessageBox.Show(Render(), "Cuboid")
+        End Sub
+
+        Private Function Render() As String Implements IRenderer.Render
+            Return "Height: " + Height.ToString() + " Length: " + Length.ToString() + " Width: " + Width.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
         End Function
 
 #End Region

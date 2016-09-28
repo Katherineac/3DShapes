@@ -15,9 +15,7 @@ Namespace Shape
             Me.MessageBox = New MessageBox
         End Sub
 
-        Public Sub Show(renderString As String, name As String) Implements IMessageBox.Show
-            Throw New NotImplementedException()
-        End Sub
+        Protected MustOverride Sub Show(renderString As String, name As String) Implements IMessageBox.Show
 
         Public MustOverride Function SurfaceArea() As Single
         Public MustOverride Function Volume() As Single

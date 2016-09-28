@@ -21,11 +21,6 @@ Namespace Shape
             Me.Radius = Radius
         End Sub
 
-        'Renders Cone and outputs to MessageBox.Show()
-        Public Sub Render() Implements IRenderer.Render
-            MessageBox.Show("Height: " + Height.ToString() + " Radius: " + Radius.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString(), "Cone")
-        End Sub
-
         'Calculates Surface Area of a Cone
         Public Overrides Function SurfaceArea() As Single
             Return Math.Round(System.Math.PI * Radius * (Radius + System.Math.Sqrt(System.Math.Pow(Height, 2) + System.Math.Pow(Radius, 2))), 2)
@@ -34,6 +29,14 @@ Namespace Shape
         'Calcualtes Volume of a Cone
         Public Overrides Function Volume() As Single
             Return Math.Round(System.Math.PI * System.Math.Pow(Radius, 2) * (Height / 3), 2)
+        End Function
+
+        Protected Overrides Sub Show(renderString As String, name As String)
+            MessageBox.Show(Render(), "Cone")
+        End Sub
+
+        Public Function Render() As String Implements IRenderer.Render
+            Return "Height: " + Height.ToString() + " Radius: " + Radius.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
         End Function
 
 #End Region

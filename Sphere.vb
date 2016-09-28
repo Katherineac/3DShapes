@@ -19,11 +19,6 @@
             Me.Radius = Radius
         End Sub
 
-        'Renders Sphere and outputs to MessageBox.Show()
-        Public Sub Render() Implements IRenderer.Render
-            MessageBox.Show("Radius: " + Radius.ToString() + " Diameter: " + Diameter.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString(), "Sphere")
-        End Sub
-
         'Calculates Surface Area of a Sphere
         Public Overrides Function SurfaceArea() As Single
             Return 4 * System.Math.PI * Radius ^ 2
@@ -33,6 +28,14 @@
         Public Overrides Function Volume() As Single
             Return 4 / 3 * System.Math.PI * Radius ^ 3
         End Function
+
+        Public Function Render() As String Implements IRenderer.Render
+            Return "Radius: " + Radius.ToString() + " Diameter: " + Diameter.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
+        End Function
+
+        Protected Overrides Sub Show(renderString As String, name As String)
+            MessageBox.Show(Render(), "Sphere")
+        End Sub
 
 #End Region
 

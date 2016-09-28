@@ -26,17 +26,20 @@ Namespace Shape
 
         End Sub
 
-        'Renders Cone and outputs to MessageBox.Show()
-        Public Sub Render() Implements IRenderer.Render
-            Me.MessageBox.Show("Diameter: " + Diameter.ToString() + " Height: " + Height.ToString() + " Radius: " + Radius.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString(), "Cylinder")
-        End Sub
-
         Public Overrides Function SurfaceArea() As Single
             Return Math.Round((2 * System.Math.PI * Radius * Height) + (2 * System.Math.PI * System.Math.Pow(Radius, 2)), 2)
         End Function
 
         Public Overrides Function Volume() As Single
             Return Math.Round(System.Math.PI * System.Math.Pow(Radius, 2) * Height, 2)
+        End Function
+
+        Protected Overrides Sub Show(renderString As String, name As String)
+            MessageBox.Show(Render(), "Cylinder")
+        End Sub
+
+        Public Function Render() As String Implements IRenderer.Render
+            Return "Diameter: " + Diameter.ToString() + " Height: " + Height.ToString() + " Radius: " + Radius.ToString() + Environment.NewLine + "Surface Area: " + SurfaceArea().ToString() + " Volume: " + Volume().ToString()
         End Function
 
 #End Region

@@ -3,20 +3,20 @@
     Public Class ShapesConsole
 
         ' Switch to Irenderer
-        Private shapeList As List(Of IRenderer)
+        Private shapeList As List(Of Shape)
 
-        Private Property Shapes As List(Of IRenderer)
+        Private Property Shapes As List(Of Shape)
             Get
                 Return shapeList
             End Get
-            Set(value As List(Of IRenderer))
+            Set(value As List(Of Shape))
                 shapeList = value
             End Set
         End Property
 
         Public Sub CompositionRoot()
-            shapeList = New List(Of IRenderer)
-            Shapes = New List(Of IRenderer)
+            shapeList = New List(Of Shape)
+            Shapes = New List(Of Shape)
 
             Dim newCone As New Cone(5, 5)
             Shapes.Add(newCone)
@@ -39,8 +39,8 @@
         End Sub
 
         Public Sub RenderShapes()
-            For Each render As IRenderer In Shapes
-                render.Render()
+            For Each currentShape As Shape In Shapes
+                currentShape.Show()
             Next
         End Sub
 
