@@ -32,7 +32,17 @@ Namespace Shape
         Private expectedVolume As Single = 392.7
 
 
-        'TODO Need to add TestMethod for RenderMethod
+        'TestMethod for MessageBox?
+        <TestMethod()> Public Sub CylinderMessageBoxTest()
+
+            'No idea is this is correct?
+            Dim testMessageBox As New MessageBox()
+
+            testMessageBox = New MessageBox()
+
+            Assert.IsInstanceOf(Of IMessageBox)(testMessageBox)
+
+        End Sub
 
         'TestMethod for the cylinder surface area method
         <TestMethod()> Public Sub CylinderSurfaceAreaTest()
