@@ -1,8 +1,17 @@
-﻿Namespace Shape
+﻿'Shapes Assignment
+'Agile Programming
+'Fall 2016
+'Katie Cater, Lucas Lokken, Austing Prueher, Pheng Vang
+
+'All fields must be explicitly declared
+Option Explicit On
+
+'Uses Shape namespace
+Namespace Shape
 
     Public Class ShapesConsole
 
-        ' Switch to Irenderer
+        'Switch to Irenderer
         Private shapeList As List(Of IRenderer)
 
         Private Property Shapes As List(Of IRenderer)
