@@ -1,11 +1,20 @@
-﻿Option Explicit On
+﻿'Shapes Assignment
+'Agile Programming
+'Fall 2016
+'Katie Cater, Lucas Lokken, Austing Prueher, Pheng Vang
 
+'All fields must be explicitly declared
+Option Explicit On
+
+'Imports Nunit Framework for tests
 Imports NUnit.Framework
+'Imports Shape Class
 Imports Shape
 
+'Uses Shape Namespace
 Namespace Shape
 
-    'Test Class
+    'Cuboid Test Class
     <TestClass()>
     Public Class CuboidUnitTest
 
